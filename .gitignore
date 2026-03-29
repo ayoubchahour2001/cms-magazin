@@ -1,18 +1,48 @@
-# Java
+# ----------------------
+# Java / Spring Boot
+# ----------------------
 target/
 *.class
-
-# Test folder
-backend/src/test/
-
-# System files
-.DS_Store
-
-# Environment
-.env
-
-# Logs
+*.jar
+*.war
 *.log
 
-# Optional: database files
-database/
+# ----------------------
+# Test folder
+# ----------------------
+backend/src/test/
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ----------------------
+# System files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Environment
+# ----------------------
+.env
+
+# ----------------------
+# Docker / database data
+# ----------------------
+# Ignore MySQL Docker volume files
+db_data/
+
+# Keep SQL scripts for the database
+# database/          <- DO NOT ignore this, we want it tracked
+
+# ----------------------
+# Others
+# ----------------------
+*.backup
+*.swp
