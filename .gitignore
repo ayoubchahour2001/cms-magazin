@@ -1,0 +1,18 @@
+# Java
+target/
+*.class
+
+# Test folder
+backend/src/test/
+
+# System files
+.DS_Store
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# Optional: database files
+database/
